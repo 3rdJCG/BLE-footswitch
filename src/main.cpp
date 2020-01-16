@@ -6,7 +6,7 @@
 
 #define LEDC_CH0 0
 
-BleKeyboard bleKeyboard;
+BleKeyboard bleKeyboard("BLE footswitch", "AYAME Electronics");
 
 volatile unsigned long time_prev = 0;
 
